@@ -10,6 +10,7 @@
 
 Everything is the same as in passport-vkontakte, but allowed passReqToCallback
 
+```javascript
 passport.use(new VKontakteStrategy(
   {
     clientID:     VKONTAKTE_APP_ID,
@@ -21,3 +22,4 @@ passport.use(new VKontakteStrategy(
   // Here you can use your request
   }
 ));
+```
